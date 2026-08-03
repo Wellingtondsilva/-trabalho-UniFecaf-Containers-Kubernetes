@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: websolutions-nginx:1.0
-        imagePullPolicy: Never
+        image: nginx:alpine
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
 ---

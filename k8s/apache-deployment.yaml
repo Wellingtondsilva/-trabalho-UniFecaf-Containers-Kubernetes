@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: apache
-        image: websolutions-apache:1.0
-        imagePullPolicy: Never
+        image: httpd:alpine
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
 ---
