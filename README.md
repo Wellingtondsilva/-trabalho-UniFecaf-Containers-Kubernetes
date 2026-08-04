@@ -73,3 +73,8 @@ Deployments: Mantêm replicas: 2 para cada aplicação, assegurando alta disponi
 Services: Abstraem o roteamento de rede via NodePort.
 
 Política de Imagem: Configurada com imagePullPolicy: IfNotPresent para garantir o rápido provisionamento em ambiente local.
+
+# Links
+## Vídeo YouTube: https://youtu.be/6w6tlBV8_us
+
+## Repositório: https://github.com/Wellingtondsilva/-trabalho-UniFecaf-Containers-Kubernetes.git
